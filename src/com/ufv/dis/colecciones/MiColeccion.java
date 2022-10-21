@@ -18,4 +18,20 @@ public class MiColeccion {
     public int cantidad(){
         return len;
     }
+
+    public void insertar(Object elm, int i){
+        if (len==datos.length){
+            Object aux[] = datos;
+            datos = new Object[datos.length*2];
+            for (int j=0; j<len; j++){
+              datos[j]=aux[j];
+            }
+            aux=null;
+        }
+        for (int j=len-1; j>=i; j--){
+            datos[j+1]=datos[j];
+        }
+        datos[i]=elm;
+        len++;
+    }
 }

@@ -42,4 +42,17 @@ public class MiColeccion {
         // si no me pasé entonces encontré, si no, no encontré
         return i<len ? i : -1;
     }
+
+    public void agregar(Object elm){
+        insertar(elm, len);
+    }
+    // elimina un elemento desplazando los demas hacia arriba
+    public Object eliminar(int i){
+        Object aux = datos[i];
+        for (int j=i; j<len-1; j++){
+            datos[j]=datos[j+1];
+        }
+        len--;
+        return aux;
+    }
 }

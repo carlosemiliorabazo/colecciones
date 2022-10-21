@@ -34,4 +34,12 @@ public class MiColeccion {
         datos[i]=elm;
         len++;
     }
+
+    public int buscar(Object elm){
+        int i=0;
+        // mientras no me pase del tope y mientras no encuentre...
+        for ( ;i<len && !datos[i].equals(elm); i++);
+        // si no me pasé entonces encontré, si no, no encontré
+        return i<len ? i : -1;
+    }
 }

@@ -1,14 +1,9 @@
 package com.ufv.dis.colecciones;
-
 public class MiColeccionGenerica<T> {
     private Object datos[] = null ;
     private int len = 0;
     // En el constructor se especifica la cantidad inicial
-
-    public MiColeccionGenerica(int capacidadInicial){
-        datos = new Object[capacidadInicial];
-    }
-
+    public MiColeccionGenerica(int capacidadInicial){datos = new Object[capacidadInicial];}
     public void agregar(T elm){
         insertar(elm, len);
     }
@@ -28,7 +23,6 @@ public class MiColeccionGenerica<T> {
         datos[i]=elm;
         len++;
     }
-
     public int buscar(T elm){
         int i=0;
         // mientras no me pase del tope y mientras no encuentre...
@@ -47,7 +41,6 @@ public class MiColeccionGenerica<T> {
         len--;
         return (T)aux;
     }
-
     // retorna el i-esimo elemento de la colección
     @SuppressWarnings("unchecked")
     public T obtener(int i){

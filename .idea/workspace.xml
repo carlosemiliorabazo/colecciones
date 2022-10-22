@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60cba238-c459-4972-a996-71f85a9cfd6e" name="Changes" comment="Séptimo commit introducimos la clase TestMiColeccionGenerica">
+    <list default="true" id="60cba238-c459-4972-a996-71f85a9cfd6e" name="Changes" comment="Octavo commit introducimos ajustes en los comentarios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ufv/dis/colecciones/MiColeccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ufv/dis/colecciones/MiColeccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ufv/dis/colecciones/TestMiColeccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ufv/dis/colecciones/TestMiColeccion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ufv/dis/colecciones/MiColeccionGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ufv/dis/colecciones/MiColeccionGenerica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ufv/dis/colecciones/TestMiColeccionGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ufv/dis/colecciones/TestMiColeccionGenerica.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666367387118</updated>
       <workItem from="1666367388379" duration="7763000" />
-      <workItem from="1666449629035" duration="2391000" />
+      <workItem from="1666449629035" duration="3017000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit incluye constructor, obtener y cantidad">
       <created>1666375970388</created>
@@ -131,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666442053461</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Octavo commit introducimos ajustes en los comentarios">
+      <created>1666452129379</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666452129379</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +163,7 @@
     <MESSAGE value="Quinto commit incluye la clase TestMiColección" />
     <MESSAGE value="Sexto commit introducimos la clase MiColeccionGenerica" />
     <MESSAGE value="Séptimo commit introducimos la clase TestMiColeccionGenerica" />
-    <option name="LAST_COMMIT_MESSAGE" value="Séptimo commit introducimos la clase TestMiColeccionGenerica" />
+    <MESSAGE value="Octavo commit introducimos ajustes en los comentarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Octavo commit introducimos ajustes en los comentarios" />
   </component>
 </project>

@@ -8,8 +8,7 @@ public class TestMiColeccionGenerica { // Muestra una lista de nombres en orden 
         // instancio una MiColeccionGenerica "especializada" en String
         MiColeccionGenerica<String> mcg = new MiColeccionGenerica<String>(5);
         while (!nom.equals("FIN")){
-            // inserto siempre en la posicion 0
-            mcg.insertar(nom,0);
+            mcg.insertar(nom,0); // inserto siempre en la posicion 0
             // leo el siguiente nombre
             nom=scanner.next();
         }
